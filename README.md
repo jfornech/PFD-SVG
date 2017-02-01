@@ -1,9 +1,13 @@
 # PFD-SVG
-Fichiers source SVG pour construire l'interface. 
+Sources SVG qui vont permettre construire l'interface de contrôle. 
 
-#Rotation depuis l'éditeur XML
+# Projet
+Créer un module python qui permettra de modifier la balise XML matrix du fichier SVG. 
+
+##Test depuis l'éditeur XML deInkscape
 Rotation de 60° -> notation XML : matrix(0.5,-0.8660254,0.8660254,0.5,0,0)
 
+##Explication
 matrix(a,b,c,d,e,f);
 a : cos(60) = 0,5;
 b : -sin(60 = -0.8660254;
