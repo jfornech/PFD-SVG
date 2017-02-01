@@ -8,8 +8,8 @@ Sources SVG qui vont permettre construire l'interface de contrôle.
 ##Test de rotation depuis Inkscape
 Rotation de 60° -> notation XML : matrix(0.5,-0.8660254,0.8660254,0.5,0,0)
 
-##Explication
-- matrix(a,b,c,d,e,f);
+###Explication
+matrix(a,b,c,d,e,f);
 - a : cos(60) = 0,5
 - b : -sin(60) = -0.8660254
 - c : sin(60) = -0.8660254 
