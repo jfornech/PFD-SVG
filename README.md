@@ -18,20 +18,3 @@ matrix(a,b,c,d,e,f);
 - f : 0 = origine y (donc au centre de la forme)
 
 L’utilisation de « matrix » permet de conserver le centre de rotation au milieu de la forme contrairement à « transform(rotate(60)) » qui utilise un autre centre de rotation (pas encore déterminer pourquoi). 
- 
- ## Noeud XML script Python 
-```
-import math
-def rotate(degre):
-	angle = degre
-	print "angle en degre : {0}".format(angle)
-	a = math.cos(math.radians(angle))
-	b = -math.sin(math.radians(angle))
-	c = math.sin(math.radians(angle))
-	d = math.cos(math.radians(angle))
-	e = 0
-	f = 0
-	print ("matrix ({0},{1},{2},{3},{4},{5}),").format(a,b,c,d,e,f)
-
-rotate(60)
-```
