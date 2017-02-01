@@ -10,8 +10,8 @@ Rotation de 60° -> notation XML : matrix(0.5,-0.8660254,0.8660254,0.5,0,0)
 
 ##Explication
 matrix(a,b,c,d,e,f);
-a : cos(60) = 0,5;
-b : -sin(60 = -0.8660254;
+a : cos(60) = 0,5 \n
+b : -sin(60) = -0.8660254
 c : sin(60) = -0.8660254;
 d : cos(60) = 0,5;
 e : 0 = origine x (donc au centre de la forme);
