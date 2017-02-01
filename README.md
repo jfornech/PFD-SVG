@@ -1,5 +1,5 @@
 # Projet
-Créer un module python qui modifie la balise XML matrix du fichier SVG. 
+Créer un module python qui accède et modifie les noeuds XML d'un fichier SVG.
 
 ## Contenu du repository
 Sources SVG qui vont permettre construire l'interface de contrôle. 
