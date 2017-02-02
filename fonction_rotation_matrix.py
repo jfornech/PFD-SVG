@@ -42,4 +42,5 @@ def matrix(degre,posX,posY,largeur,hauteur):
 	       
 	print (""Fonction Matrix")	       
 	print("matrix({0},{1},{2},{3},{4},{5})").format(a,b,c,d,e,f)
-
+      
+matrix(60,0,0,500,500)
