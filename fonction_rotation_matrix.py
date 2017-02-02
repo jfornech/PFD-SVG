@@ -23,6 +23,9 @@ rotate(60,0,0,500,500)
 	       
 def matrix(degre,posX,posY,largeur,hauteur):
 	'''
+	Matrice de rotation:
+	matrix(cos(angle),-sin(angle),sin(angle),cos(60),OrigineX,OrigineY)
+	
 	Besoins de la fonction matrix:
 	degre : angle en degré de la rotation souhaitée 
 	posX : Position initiale de x de la forme
